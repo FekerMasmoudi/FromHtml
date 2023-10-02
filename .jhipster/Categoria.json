@@ -1,0 +1,20 @@
+{
+  "changelogDate": "20231002135449",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": ["unique"]
+    },
+    {
+      "fieldName": "subcategoria",
+      "fieldType": "String"
+    }
+  ],
+  "name": "Categoria",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceClass"
+}
